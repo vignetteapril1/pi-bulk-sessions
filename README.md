@@ -15,9 +15,9 @@ ctrl+s sort · ctrl+n named · ctrl+d delete · ctrl+p path (off) · ctrl+r rena
 
 [  ]   Refactor the session selector                                                        7 1h
 [  ]   Fix ANSI truncation on wide CJK rows                                                21 3h
-[x] › Wire up the VPS searxng limiter                                                      35 5h
+[x] › Wire up the search rate limiter                                                      35 5h
 [•]   Current chat about lunch                                                             49 7h
-[x]   Debug the Unity MCP lease                                                63 9h  3 selected
+[x]   Debug the flaky keybinding probe                                         63 9h  3 selected
 ```
 
 `ctrl+d` then asks for confirmation (`enter` confirms, `escape` cancels) and replaces the hint line

@@ -28,6 +28,8 @@ with `Delete 3 chats permanently? enter confirm · escape/ctrl+c cancel`.
 ```bash
 pi install npm:pi-bulk-sessions          # permanent
 pi -e npm:pi-bulk-sessions               # one-shot trial, no install
+pi install git:github.com/vignetteapril1/pi-bulk-sessions          # from source, no npm needed
+pi install git:github.com/vignetteapril1/pi-bulk-sessions@v1.0.1   # pinned to a tag
 ```
 
 Then run `pi` and type `/sessions`.

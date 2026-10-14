@@ -1,0 +1,65 @@
+{
+  "name": "pi-bulk-sessions",
+  "version": "1.0.0",
+  "description": "Multi-select chat deletion inside pi's own resume browser. /sessions adds a checkbox column to pi's SessionSelectorComponent: alt+s toggles, alt+a toggles all, alt+x deletes the checked chats (trash-safe).",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "pi-coding-agent",
+    "sessions",
+    "resume",
+    "delete",
+    "bulk",
+    "multi-select",
+    "checkbox",
+    "tui"
+  ],
+  "license": "MIT",
+  "author": "VignetteApril",
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/sessions.ts"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VignetteApril/pi-bulk-sessions.git"
+  },
+  "homepage": "https://github.com/VignetteApril/pi-bulk-sessions#readme",
+  "bugs": {
+    "url": "https://github.com/VignetteApril/pi-bulk-sessions/issues"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types test/test.ts",
+    "loader": "node --experimental-strip-types test/loader-check.ts",
+    "preview": "node --experimental-strip-types test/preview.ts",
+    "probe": "node --experimental-strip-types test/keyprobe.ts",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run typecheck && npm run loader && npm test"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-codemode": "1.1.0",
+    "@earendil-works/pi-coding-agent": "1.1.0",
+    "@earendil-works/pi-tui": "1.1.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

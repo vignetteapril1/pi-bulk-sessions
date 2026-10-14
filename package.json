@@ -1,6 +1,6 @@
 {
   "name": "pi-bulk-sessions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multi-select chat deletion inside pi's own resume browser. /sessions adds a checkbox column to pi's SessionSelectorComponent: alt+s toggles, alt+a toggles all, alt+x deletes the checked chats (trash-safe).",
   "keywords": [
     "pi-package",

@@ -34,11 +34,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VignetteApril/pi-bulk-sessions.git"
+    "url": "git+https://github.com/vignetteapril1/pi-bulk-sessions.git"
   },
-  "homepage": "https://github.com/VignetteApril/pi-bulk-sessions#readme",
+  "homepage": "https://github.com/vignetteapril1/pi-bulk-sessions#readme",
   "bugs": {
-    "url": "https://github.com/VignetteApril/pi-bulk-sessions/issues"
+    "url": "https://github.com/vignetteapril1/pi-bulk-sessions/issues"
   },
   "scripts": {
     "test": "node --experimental-strip-types test/test.ts",
